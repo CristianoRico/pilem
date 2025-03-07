@@ -3,8 +3,8 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  static const String baseUrl = "https://api.themovidedb.org/3";
-  static const String apiKey = "d4c377db9c536cc31d55c0749dc999f7";
+  static const String baseUrl = 'https://api.themoviedb.org/3';
+  static const String apiKey = 'd4c377db9c536cc31d55c0749dc999f7';
 
   Future<List<Map<String, dynamic>>> getAllMovies() async {
     final response =
